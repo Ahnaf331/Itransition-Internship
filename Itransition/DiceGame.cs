@@ -75,9 +75,13 @@ class DiceGame
     {
         var diceSets = new[]
         {
-            new[] { 2, 2, 4, 4, 9, 9 },
-            new[] { 6, 8, 1, 1, 8, 6 },
-            new[] { 7, 5, 3, 7, 5, 3 }
+             new[] {1,2,3,4,5,6},
+             new[] {1,2,3,4,5,6},
+             new[] {1,2,3,4,5,6},
+             new[] {1,2,3,4,5,6},
+             new[] {2,2,4,4,9,9},
+             new[] {1,1,6,6,8,8},
+             new[] {3,3,5,5,7,7}
         };
 
         Console.WriteLine("Let's determine who makes the first move.");
